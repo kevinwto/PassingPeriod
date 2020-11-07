@@ -5,12 +5,15 @@ public abstract class Contact{
     private String lastname;
     private String Id;
     private String phoneNumber;
+    private boolean isfree;
 
-    public Contact(String firstname, String lastname, String Id, String phoneNumber){
+    public Contact(String firstname, String lastname, String Id, String phoneNumber, 
+    boolean isfree){
         this.firstname = firstname;
         this.lastname = lastname;
         this.Id = Id;
         this.phoneNumber = phoneNumber;
+        this.isfree = free;
     }
 
     public void setname(String fname, lname){
@@ -28,5 +31,13 @@ public abstract class Contact{
 
     public String getphoneNumber(){
         return this.phoneNumber;
+    }
+
+    public void setisfree(boolean free){
+        this.isfree = free;
+    }
+
+    public boolean getisfree(){
+        return this.isfree;
     }
 }
