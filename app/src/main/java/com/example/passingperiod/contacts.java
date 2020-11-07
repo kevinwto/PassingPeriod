@@ -1,6 +1,6 @@
 package com.example.passingperiod;
 
-public abstract class Contact{
+ abstract class Contact{
     private String firstname;
     private String lastname;
     private String Id;
@@ -13,10 +13,10 @@ public abstract class Contact{
         this.lastname = lastname;
         this.Id = Id;
         this.phoneNumber = phoneNumber;
-        this.isfree = free;
+        this.isfree = isfree;
     }
 
-    public void setname(String fname, lname){
+    public void setname(String fname, String lname){
         this.firstname = fname;
         this.lastname =  lname;
     }
