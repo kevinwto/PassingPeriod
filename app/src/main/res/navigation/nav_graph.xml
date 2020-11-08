@@ -10,9 +10,13 @@
         android:name="com.example.passingperiod.FirstFragment"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_first">
+
         <action
             android:id="@+id/action_FirstFragment_to_mainActivity2"
             app:destination="@id/mainActivity2" />
+        <action
+            android:id="@+id/action_FirstFragment_to_freeFragment"
+            app:destination="@id/freeFragment" />
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
@@ -24,6 +28,11 @@
             android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/freeFragment"
+        android:name="com.example.passingperiod.FreeFragment"
+        android:label="fragment_free"
+        tools:layout="@layout/fragment_free" />
     <activity
         android:id="@+id/mainActivity2"
         android:name="com.example.passingperiod.MainActivity2"
