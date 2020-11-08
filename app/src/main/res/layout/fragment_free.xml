@@ -31,7 +31,7 @@
         android:layout_height="58dp"
         android:foregroundGravity="center|fill"
         android:gravity="center"
-        android:text="The Cutest Cutie"
+        android:text="The Cutiest Cutie"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
