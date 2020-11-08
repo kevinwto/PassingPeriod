@@ -7,7 +7,7 @@
     android:id="@+id/coordinatorLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#131111">
+    android:background="#232323">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appbar"
@@ -53,35 +53,38 @@
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/im_free"
-        android:layout_width="206dp"
-        android:layout_height="277dp"
-        android:layout_marginTop="184dp"
+        android:layout_width="197dp"
+        android:layout_height="188dp"
+        android:layout_marginTop="60dp"
         android:clickable="true"
+        android:contentDescription="TODO"
         android:src="@drawable/round_button"
+        android:visibility="visible"
         app:backgroundTint="#5117b8"
         app:backgroundTintMode="add"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.521"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/appbar"
-        android:contentDescription="TODO" />
+        app:layout_constraintTop_toBottomOf="@+id/appbar" />
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="122dp"
-        android:layout_height="55dp"
+        android:layout_width="309dp"
+        android:layout_height="130dp"
         android:layout_marginTop="268dp"
+        android:fontFamily="@font/bungee"
+        android:gravity="center"
         android:text="@string/i_m_free"
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
-        android:textSize="25sp"
+        android:textSize="20sp"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/im_free"
-        app:layout_constraintHorizontal_bias="0.559"
-        app:layout_constraintStart_toStartOf="@+id/im_free"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.523"
-        tools:text="I'M FREE" />
+        app:layout_constraintVertical_bias="0.443"
+        tools:text="Tap the button to let your friends know that you are free!" />
 
     "
 
