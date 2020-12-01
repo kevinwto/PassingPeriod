@@ -1,6 +1,6 @@
 # Passing Period
 
-*Winner of best theme hack at Cutie Hack 2020*
+*Winner of Best Themed Hack at Cutie Hack 2020*
 
 ### Inspiration 
 With the theme of staying at home, we began to think of creative ways that we could encourage people to stay indoors, while maintaining the experiences in which we no longer have access to due to the Covid outbreak. One of these experiences was the random yet exciting moments of running into friends at school during our passing periods. These simple, but random encounters often kept us in contact with various people whom we often don't have time to keep in touch with. With coronavirus taking these spontaneous moments away, we wanted to do something to bring back this random contact during a social pandemic
